@@ -1,0 +1,208 @@
+[
+  {
+    "id": "Q1",
+    "question": "Have we done similar work in manufacturing digital transformation?",
+    "expected_key_points": [
+      "Smart Factory engagement with automotive OEM in Pune",
+      "OEE improvement of 22%",
+      "MES and SCADA integration experience",
+      "18-month programme duration",
+      "₹12 Cr annual savings"
+    ],
+    "expected_source_docs": [
+      "Case Study - Smart Factory Automotive OEM 2023.pdf",
+      "Whitepaper - Manufacturing Digitalization Framework.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Should pull from CS-1 and the whitepaper. High confidence expected."
+  },
+  {
+    "id": "Q2",
+    "question": "Show me proposals where we implemented MES or factory digitization",
+    "expected_key_points": [
+      "Tier-1 Auto Supplier MES implementation in Gurugram",
+      "₹45 Cr deal for 3-plant MES rollout",
+      "FMCG Manufacturer pan-India digitisation — ₹80 Cr",
+      "SCADA integration, shop floor analytics",
+      "90-day Phase 1 commitment"
+    ],
+    "expected_source_docs": [
+      "Proposal - Tier1 Auto Supplier MES Implementation 2022.pdf",
+      "Proposal - FMCG Manufacturer Digitization 2021.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Should surface both MES-related proposals."
+  },
+  {
+    "id": "Q3",
+    "question": "What differentiators have we used when pitching against competitors like Infosys or Siemens?",
+    "expected_key_points": [
+      "Pre-built MES accelerator with 40+ reusable adapters",
+      "Deep OT/IT expertise in-house (not subcontracted)",
+      "Automotive domain experience — avg 12 years",
+      "Phased rollout model minimising disruption",
+      "Fixed-price Phase 1 commitment",
+      "90-day go-live vs 5-6 months for Infosys"
+    ],
+    "expected_source_docs": [
+      "Proposal - Tier1 Auto Supplier MES Implementation 2022.pdf",
+      "Proposal - FMCG Manufacturer Digitization 2021.pdf",
+      "Pitch Deck - Industry 4.0 Capabilities 2023.pptx"
+    ],
+    "expected_confidence": "high",
+    "notes": "The Tier-1 proposal has an explicit competitor comparison table."
+  },
+  {
+    "id": "Q4",
+    "question": "Give me quantified outcomes from our past case studies",
+    "expected_key_points": [
+      "22% OEE improvement (Automotive OEM)",
+      "18% energy cost reduction (Steel Plant)",
+      "40% reduction in unplanned downtime (FMCG Bottling)",
+      "₹12 Cr annual savings (Smart Factory)",
+      "₹8 Cr annual savings (Energy)",
+      "25% defect reduction (TN Cluster)"
+    ],
+    "expected_source_docs": [
+      "Case Study - Smart Factory Automotive OEM 2023.pdf",
+      "Case Study - Energy Optimization 2022.pdf",
+      "Case Study - Predictive Maintenance 2023.pdf",
+      "Case Study - Tamil Nadu Automotive Cluster 2023.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Tests metric extraction across multiple docs."
+  },
+  {
+    "id": "Q5",
+    "question": "Do we have a whitepaper that supports ESG or sustainability conversations with clients?",
+    "expected_key_points": [
+      "Digital Enablement for ESG Compliance whitepaper",
+      "BRSR framework and SEBI compliance context",
+      "Energy monitoring, carbon footprint, waste reduction as key themes",
+      "Suggested use for CFO and sustainability head conversations",
+      "OEM supply-chain ESG requirements as a sales hook"
+    ],
+    "expected_source_docs": [
+      "Whitepaper - Digital Enablement for ESG Compliance.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Direct keyword match. ESG whitepaper should be the top hit."
+  },
+  {
+    "id": "Q6",
+    "question": "What experience do we have in the South India manufacturing market?",
+    "expected_key_points": [
+      "Tamil Nadu automotive cluster quality platform project (2023)",
+      "Chennai predictive maintenance engagement for FMCG (2023)",
+      "Kerala process industry proposal — Kochi specialty chemicals (2022)",
+      "Coimbatore mid-market manufacturing transformation (2023)",
+      "300+ consultants in South India practice"
+    ],
+    "expected_source_docs": [
+      "Case Study - Tamil Nadu Automotive Cluster 2023.pdf",
+      "Case Study - Predictive Maintenance 2023.pdf",
+      "Proposal - Kerala Process Industry 2022.pdf",
+      "Proposal - Mid Market Manufacturing Client 2023.pdf",
+      "Pitch Deck - Industry 4.0 Capabilities 2023.pptx"
+    ],
+    "expected_confidence": "high",
+    "notes": "Tests regional metadata filtering. All 4 South India docs should appear."
+  },
+  {
+    "id": "Q7",
+    "question": "Can you summarise our strongest proposal for a ₹100–200 Cr manufacturing client?",
+    "expected_key_points": [
+      "Mid-market manufacturing client in Coimbatore (₹150 Cr deal)",
+      "End-to-end digital transformation — ERP, MES, analytics, change management",
+      "24-month timeline with team of 35 consultants",
+      "Strong executive sponsorship cited as success factor",
+      "Quick Wins delivered in first 90 days to build momentum"
+    ],
+    "expected_source_docs": [
+      "Proposal - Mid Market Manufacturing Client 2023.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "₹150 Cr falls in the ₹100-200 Cr range. Should retrieve the mid-market proposal."
+  },
+  {
+    "id": "Q8",
+    "question": "What is our energy monitoring and IoT deployment experience?",
+    "expected_key_points": [
+      "Steel plant energy optimisation — 18% cost reduction",
+      "1,200+ IoT sensors deployed in automotive OEM smart factory",
+      "380 vibration sensors + thermal cameras in FMCG bottling plant",
+      "ISO 50001 certification achieved for steel client",
+      "Azure IoT Edge and MQTT broker architecture"
+    ],
+    "expected_source_docs": [
+      "Case Study - Energy Optimization 2022.pdf",
+      "Case Study - Smart Factory Automotive OEM 2023.pdf",
+      "Case Study - Predictive Maintenance 2023.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Cross-cutting IoT theme across multiple case studies."
+  },
+  {
+    "id": "Q_MULTI_TURN_1",
+    "question": "What experience do we have in manufacturing?",
+    "expected_key_points": [
+      "Overview covering automotive, FMCG, steel, process industries",
+      "Multiple case studies and proposals referenced",
+      "Both South India and national engagements"
+    ],
+    "expected_source_docs": ["multiple"],
+    "expected_confidence": "high",
+    "notes": "Turn 1 of the multi-turn demo chain. Broad query, broad answer expected."
+  },
+  {
+    "id": "Q_MULTI_TURN_2",
+    "question": "Narrow that to 2023 only",
+    "expected_key_points": [
+      "Smart Factory Automotive OEM 2023",
+      "Predictive Maintenance 2023",
+      "Tamil Nadu Automotive Cluster 2023",
+      "Mid-Market Manufacturing Client 2023"
+    ],
+    "expected_source_docs": [
+      "Case Study - Smart Factory Automotive OEM 2023.pdf",
+      "Case Study - Predictive Maintenance 2023.pdf",
+      "Case Study - Tamil Nadu Automotive Cluster 2023.pdf",
+      "Proposal - Mid Market Manufacturing Client 2023.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Turn 2. Must resolve 'that' from Turn 1 context. Year metadata filter should kick in."
+  },
+  {
+    "id": "Q_MULTI_TURN_3",
+    "question": "What about specifically in South India?",
+    "expected_key_points": [
+      "Tamil Nadu Automotive Cluster (Tamil Nadu, 2023)",
+      "Predictive Maintenance in Chennai (Tamil Nadu, 2023)",
+      "Mid-Market Manufacturing in Coimbatore (Tamil Nadu, 2023)"
+    ],
+    "expected_source_docs": [
+      "Case Study - Tamil Nadu Automotive Cluster 2023.pdf",
+      "Case Study - Predictive Maintenance 2023.pdf",
+      "Proposal - Mid Market Manufacturing Client 2023.pdf"
+    ],
+    "expected_confidence": "high",
+    "notes": "Turn 3. Must combine 2023 context from Turn 2 AND South India filter. Multi-turn memory test."
+  },
+  {
+    "id": "Q_OOS",
+    "question": "What is our experience in aerospace or defence?",
+    "expected_behavior": "System must say it has no relevant content. Must NOT fabricate aerospace or defence experience.",
+    "expected_source_docs": [],
+    "expected_confidence": "low",
+    "guardrail_expected": false,
+    "notes": "Out-of-scope content test. Low confidence + no-answer response expected. Critical hallucination check."
+  },
+  {
+    "id": "Q_LOW_CONF",
+    "question": "Do we have experience with blockchain in supply chain?",
+    "expected_behavior": "System should find no relevant content. May return low-confidence response with disclaimer.",
+    "expected_source_docs": [],
+    "expected_confidence": "low",
+    "notes": "Another out-of-scope topic. Tests low-confidence path and disclaimer text."
+  }
+]
