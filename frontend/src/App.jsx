@@ -7,6 +7,7 @@ export default function App() {
   const [view, setView] = useState('chat');
   const [sessionId, setSessionId] = useState(null);
   const [sessionError, setSessionError] = useState(false);
+  const [messages, setMessages] = useState([]);
 
   const initSession = async () => {
     setSessionError(false);
@@ -81,7 +82,7 @@ export default function App() {
       {/* Main content */}
       <div style={{ flex: 1, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
         {view === 'chat' ? (
-          <ChatWindow sessionId={sessionId} onNewSession={initSession} />
+          <ChatWindow sessionId={sessionId} messages={messages} setMessages={setMessages} onNewSession={() => { setMessages([]); initSession(); }} />
         ) : (
           <div style={{ flex: 1, overflowY: 'auto' }}>
             <AdminPanel />

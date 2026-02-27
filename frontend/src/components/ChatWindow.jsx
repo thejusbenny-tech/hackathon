@@ -4,8 +4,7 @@ import QueryInput from './QueryInput';
 import StarterQueries from './StarterQueries';
 import { sendQuery } from '../services/api';
 
-export default function ChatWindow({ sessionId, onNewSession }) {
-  const [messages, setMessages] = useState([]);
+export default function ChatWindow({ sessionId, messages, setMessages, onNewSession }) {
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef(null);
 
@@ -46,7 +45,6 @@ export default function ChatWindow({ sessionId, onNewSession }) {
   };
 
   const handleNewConversation = () => {
-    setMessages([]);
     onNewSession();
   };
 

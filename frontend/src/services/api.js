@@ -5,7 +5,7 @@ const BASE_URL = 'http://localhost:8000';
 const api = axios.create({
   baseURL: BASE_URL,
   headers: { 'Content-Type': 'application/json' },
-  timeout: 60000,
+  timeout: 300000,
 });
 
 export const createSession = async () => {

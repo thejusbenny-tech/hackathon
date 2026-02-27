@@ -75,8 +75,18 @@ function AssistantBubble({ message, idx }) {
           </div>
 
           {/* Citations */}
-          {!isGuardrail && citations && citations.length > 0 && (
-            <CitationPanel citations={citations} />
+          {!isGuardrail && (
+            citations && citations.length > 0
+              ? <CitationPanel citations={citations} />
+              : (
+                <div style={{
+                  marginTop: 10, fontSize: 12, color: '#475569',
+                  display: 'flex', alignItems: 'center', gap: 6,
+                }}>
+                  <span style={{ opacity: 0.6 }}>ℹ</span>
+                  No source documents found for this response.
+                </div>
+              )
           )}
 
           {/* Feedback */}
